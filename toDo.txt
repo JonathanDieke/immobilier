@@ -1,0 +1,10 @@
+
+			*** E-school ***
+student : {show for print and print for all students of classroom } 
+rating : {print all notes for students of clasrsroom }
+course :{component for search course and print button for print course }
+classroom : {print button for one or all classrooms }
+teacher and category : {print button again }
+room : {print button again}
+middleware : auth
+add picture for students and teacher
