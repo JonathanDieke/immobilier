@@ -19,9 +19,11 @@ $factory->define(contract::class, function (Faker $faker) {
     ];
 
     return [
+        'number' => $faker->numberBetween(10000, 100000),
         'immovable_id' => $faker->numberBetween(1,20),
         'client_id' => $faker->numberBetween(1,20),
         'employee_id' => $faker->numberBetween(1,10),
+        'date' => $faker->date('Y-m-d', 'now'),
         'title' => Arr::random($array)
     ];
 });

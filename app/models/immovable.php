@@ -20,7 +20,14 @@ class immovable extends Model
         return $this->belongsTo("App\models\category");
     }
 
-    public function bought(){
+    public function client(){
         return $this->belongsTo("\App\models\client");
+    }
+
+    public function getClient(){
+        if($this->status_id == 2 || $this->status_id == 3)
+         return $this->client->firstname .' '.$this->client->lastname;
+
+        return 'Aucun propriétaire' ;
     }
 }

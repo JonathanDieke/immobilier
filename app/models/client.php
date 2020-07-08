@@ -8,7 +8,7 @@ class client extends Model
 {
     protected $guarded = [];
 
-    public function buy(){
-        $this->hasMany("\App\models\immovable","immovable_id", "id");
+    public function immovable(){
+        return $this->hasMany("\App\models\immovable", "client_id", "id");
     }
 }
