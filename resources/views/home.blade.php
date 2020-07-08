@@ -32,20 +32,10 @@
                     <div class="icon-holder">
                         <img src="{{asset('index/img/icons/guru-blue.png')}}" alt="" class="icon">
                     </div>
-                    <h4 class="heading">Vente</h4>
-                    <p class="description">Parcourez la liste des biens disponibles pour la vente ou déjà vendus.</p>
+                    <h4 class="heading">Biens immobiliers</h4>
+                    <p class="description">Parcourez la liste des biens vendus ou non, en location ou non</p>
                 </div>
-            </div>
-
-            <div class="col-sm-4">
-                <div class="service bg-light">
-                    <div class="icon-holder">
-                        <img src="{{asset('index/img/icons/guru-blue.png')}}" alt="" class="icon">
-                    </div>
-                    <h4 class="heading">Location</h4>
-                    <p class="description">Parcourez la liste des biens disponibles pour la location ou louables</p>
-                </div>
-            </div>
+            </div> 
 
             <div class="col-sm-4">
                 <div class="service bg-light">
